@@ -23,7 +23,7 @@ Two threads were used, with per-thread results shown in the table:
 | Software                | Requests per Second (RPS) |
 |-------------------------|---------------------------|
 | Storj JS Runtime        | 240342.56 * 2             |
-| uServer                 | 22193.68 * 2              |
+| uServer                 | 222193.68 * 2              |
 | Go                      | 211944.02 * 2             |
 | Boost.Asio              | 91792.11 * 2              |
 | Node.js                 | 18192.07 * 2              |
