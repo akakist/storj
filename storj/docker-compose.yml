@@ -3,7 +3,7 @@
 
 services:
   storj:
-    container_name: st
+    container_name: akakist/storj
     image: st
 #    image: akakist/storj
 
