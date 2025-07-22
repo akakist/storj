@@ -1,7 +1,7 @@
 
-# Storj JS Runtime
+# MTJS JS Runtime
 
-**Storj JS Runtime** is a high-performance JavaScript runtime for building server-side applications, delivering exceptional HTTP request processing speed and unique features like built-in routing and Telnet-based management. The project showcases JavaScript as a powerful tool for backend development, outperforming modern C++ solutions.
+**MTJS JS Runtime** is a high-performance JavaScript runtime for building server-side applications, delivering exceptional HTTP request processing speed and unique features like built-in routing and Telnet-based management. The project showcases JavaScript as a powerful tool for backend development, outperforming modern C++ solutions.
 
 ## Key Features
 
@@ -22,25 +22,25 @@ Two threads were used, with per-thread results shown in the table:
 
 | Software                | Requests per Second (RPS) |
 |-------------------------|---------------------------|
-| Storj JS Runtime        | 240342.56 * 2             |
+| MTJS JS Runtime        | 240342.56 * 2             |
 | uServer                 | 222193.68 * 2              |
 | Go                      | 211944.02 * 2             |
 | Boost.Asio              | 91792.11 * 2              |
 | Node.js                 | 18192.07 * 2              |
 
-**Conclusion**: Storj JS Runtime demonstrates over twice the performance of modern C++ solutions (Boost.Asio) and significantly outperforms Node.js and uServer.
+**Conclusion**: MTJS JS Runtime demonstrates over twice the performance of modern C++ solutions (Boost.Asio) and significantly outperforms Node.js and uServer.
 
 ## Installation
 
 ### Requirements
 - Docker and Docker Compose.
-- Access to Docker Hub for the `akakist/storj` image.
+- Access to Docker Hub for the `akakist/mtjs` image.
 
 ### Quick Start
-1. Clone the repository or prepare the `docker-compose.yml` from the `storj` directory:
+1. Clone the repository or prepare the `docker-compose.yml` from the `mtjs` directory:
    ```bash
-   git clone https://github.com/akakist/storj.git
-   cd storj/storj
+   git clone https://github.com/akakist/mtjs.git
+   cd mtjs/mtjs
    ```
 2. Launch the container using Docker Compose:
    ```bash
@@ -48,14 +48,14 @@ Two threads were used, with per-thread results shown in the table:
    ```
 3. Alternatively, pull and run the image directly:
    ```bash
-   docker pull akakist/storj
-   docker run -it akakist/storj
+   docker pull akakist/mtjs
+   docker run -it akakist/mtjs
    ```
 
 ### Running Tests
 1. Inside the container, execute:
    ```bash
-   cd /storj/dist
+   cd /mtjs/dist
    ls
    ```
 2. Run tests starting with `t_*.js`:
